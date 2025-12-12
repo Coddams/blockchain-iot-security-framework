@@ -1,0 +1,16 @@
+{
+  "platforms": {
+    "ethereum": {
+      "providerUrl": "https://sepolia.infura.io/v3/${INFURA_PROJECT_ID}",
+      "privateKey": "${ETHEREUM_PRIVATE_KEY}"
+    },
+    "hyperledger": {
+      "ccpPath": "path/to/connection-profile.json",
+      "walletPath": "path/to/wallet",
+      "userId": "admin",
+      "channelName": "mychannel",
+      "chaincodeName": "mycontract"
+    }
+  },
+  "defaultPlatform": "ethereum"
+}
